@@ -2,25 +2,25 @@ import json
 
 
 def menor_valor(lista):
-    menor = lista[0]
+    menor = lista[0]['valor']
     for i in lista:
-        if i != 0 and i < menor:
-            menor = i
+        if i['valor'] != 0 and i['valor'] < menor:
+            menor = i['valor']
     return menor
 
 
 def maior_valor(lista):
     maior = 0
     for i in lista:
-        if i > maior:
-            maior = i
+        if i['valor'] > maior:
+            maior = i['valor']
     return maior
 
 
 def contar_dif_zero(lista):
     contagem = 0
     for numero in lista:
-        if numero != 0:
+        if numero['valor'] != 0:
             contagem += 1
     return contagem
 
@@ -29,7 +29,7 @@ def calcular_media(lista):
     dias = contar_dif_zero(lista)
     total = 0
     for i in lista:
-        total += i
+        total += i['valor']
     return total / dias
 
 
@@ -37,15 +37,13 @@ def dias_acima_media(lista):
     contagem = 0
     media = calcular_media(lista)
     for i in lista:
-        if i > media:
+        if i['valor'] > media:
             contagem += 1
     return contagem
 
 
-# como não tinha um JSON disponível, fiz um sozinho. Para teste, o array equivalente seria:
-# faturamento = [1500.0, 1000.0, 2000.0, 0, 3000.0, 2500.0, 0, 1800.0, 2800.0, 2000.0, 2200.0, 0, 1500.0, 1900.0, 2700.0, 2300.0, 2400.0, 2000.0, 0, 2600.0, 2800.0, 2900.0, 2200.0, 2300.0, 1500.0, 0, 1800.0, 2000.0, 2100.0, 2500.0, 2200.0]
-with open('faturamento.json') as f:
-    faturamento = json.load(f)['faturamento_diario']
+with open('dados.json') as f:
+    faturamento = json.load(f)
 
 menor_vlr = menor_valor(faturamento)
 print(f"O menor valor de faturamento em um dia do mês foi R${menor_vlr}")
