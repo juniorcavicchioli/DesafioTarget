@@ -3,7 +3,7 @@
 Repositório para entrega dos desafios propostos em um processo seletivo.
 Fiz os desafios em Python e em Java.
 
-- **Desafio 02** : [python](https://github.com/juniorcavicchioli/DesafioTarget/blob/main/Desafio%202.py),
+- **Desafio 02**: [python](https://github.com/juniorcavicchioli/DesafioTarget/blob/main/Desafio%202.py),
                     [java](https://github.com/juniorcavicchioli/DesafioTarget/blob/main/DesafioTarget/src/main/java/org/example/Desafio02.java)
 - **Desafio 03**: [python](https://github.com/juniorcavicchioli/DesafioTarget/blob/main/Desafio%203.py),
                   [java](https://github.com/juniorcavicchioli/DesafioTarget/blob/main/DesafioTarget/src/main/java/org/example/Desafio03.java)
