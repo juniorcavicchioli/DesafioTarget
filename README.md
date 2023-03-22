@@ -1,7 +1,7 @@
 # DesafioTarget
 
 Repositório para entrega dos desafios propostos em um processo seletivo.
-Fiz os desafios em Python e em Java.
+Fiz os desafios em Python e em Java. Tenho mais confiança nas soluções que desenvolvi em Python.
 
 - **Desafio 02**: [python](https://github.com/juniorcavicchioli/DesafioTarget/blob/main/Desafio%202.py),
                     [java](https://github.com/juniorcavicchioli/DesafioTarget/blob/main/DesafioTarget/src/main/java/org/example/Desafio02.java)
