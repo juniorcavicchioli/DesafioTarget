@@ -1,4 +1,7 @@
-# DesafioTarget
+<h1>DesafioTarget</h1>
+<p align="right">
+<img src="https://shields-io-visitor-counter.herokuapp.com/badge?page=juniorcavicchioli.DesafioTarget&color=1D70B8&logo=GitHub&logoColor=FFFFFF&style=flat-square"/>
+</p>
 
 Repositório para entrega dos desafios propostos em um processo seletivo.
 Fiz os desafios em Python e em Java. Tenho mais confiança nas soluções que desenvolvi em Python.
